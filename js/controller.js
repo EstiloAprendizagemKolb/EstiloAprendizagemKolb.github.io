@@ -19,16 +19,6 @@ $(document).ready(function() {
 
 	});
 
-//FRASES
-
-	 var frases = ["Que a força esteja com você!", "Pense como um próton e mantenha-se positivo.", "Você só falha quando para de tentar."];
-
-	  function incentivo(){
-	    var i = parseInt(Math.random()*3);
-	    return frases[i];
-	    }
-	 
-	 document.getElementById("motivacional").innerHTML = incentivo() ;
 
 //CAIXA DE INFORMACAO - ((( DESABILITADA )))
 
