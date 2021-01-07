@@ -71,70 +71,248 @@ $(document).ready(function() {
 				if (!(($("input:radio[name='1opA']").is(":checked"))&&
 						($("input:radio[name='1opB']").is(":checked"))&&
 						($("input:radio[name='1opC']").is(":checked"))&&
-						($("input:radio[name='1opD']").is(":checked"))&&
+						($("input:radio[name='1opD']").is(":checked")))) {
 
-						($("input:radio[name='2opA']").is(":checked"))&&
+
+											$('html, body').animate({
+											        scrollTop: (($("#s1").offset().top)-50)
+											    }, 500);
+											$('#s1').css("color","red");
+											$('#modal-alerta').modal({
+							      					show: true
+							    				});
+
+						
+						}
+		   else if  (!(($("input:radio[name='2opA']").is(":checked"))&&
 						($("input:radio[name='2opB']").is(":checked"))&&
 						($("input:radio[name='2opC']").is(":checked"))&&
-						($("input:radio[name='2opD']").is(":checked"))&&
+						($("input:radio[name='2opD']").is(":checked")))) {
+
+
+											$('html, body').animate({
+											        scrollTop: (($("#s2").offset().top)-50)
+											    }, 500);
+											$('#s1').css("color","black");
+											$('#s2').css("color","red");
+											$('#modal-alerta').modal({
+							      					show: true
+							    				});
+
 						
-						($("input:radio[name='3opA']").is(":checked"))&&
+						}
+		   else if  (!(($("input:radio[name='3opA']").is(":checked"))&&
 						($("input:radio[name='3opB']").is(":checked"))&&
 						($("input:radio[name='3opC']").is(":checked"))&&
-						($("input:radio[name='3opD']").is(":checked"))&&
-						
-						($("input:radio[name='4opA']").is(":checked"))&&
+						($("input:radio[name='3opD']").is(":checked")))) {
+
+											$('html, body').animate({
+											        scrollTop: (($("#s3").offset().top)-50)
+											    }, 500);
+											$('#s1').css("color","black");
+											$('#s2').css("color","black");
+											$('#s3').css("color","red");
+											$('#modal-alerta').modal({
+							      					show: true
+							    				});
+						}
+			else if  (!(($("input:radio[name='4opA']").is(":checked"))&&
 						($("input:radio[name='4opB']").is(":checked"))&&
 						($("input:radio[name='4opC']").is(":checked"))&&
-						($("input:radio[name='4opD']").is(":checked"))&&
-						
-						($("input:radio[name='5opA']").is(":checked"))&&
+						($("input:radio[name='4opD']").is(":checked")))) {
+
+											$('html, body').animate({
+											        scrollTop: (($("#s4").offset().top)-50)
+											    }, 500);
+											$('#s1').css("color","black");
+											$('#s2').css("color","black");
+											$('#s3').css("color","black");
+											$('#s4').css("color","red");
+											$('#modal-alerta').modal({
+							      					show: true
+							    				});
+						}
+			else if  (!(($("input:radio[name='5opA']").is(":checked"))&&
 						($("input:radio[name='5opB']").is(":checked"))&&
 						($("input:radio[name='5opC']").is(":checked"))&&
-						($("input:radio[name='5opD']").is(":checked"))&&
-						
-						($("input:radio[name='6opA']").is(":checked"))&&
+						($("input:radio[name='5opD']").is(":checked")))) {
+
+											$('html, body').animate({
+											        scrollTop: (($("#s5").offset().top)-50)
+											    }, 500);
+											$('#s1').css("color","black");
+											$('#s2').css("color","black");
+											$('#s3').css("color","black");
+											$('#s4').css("color","black");
+											$('#s5').css("color","red");
+											$('#modal-alerta').modal({
+							      					show: true
+							    				});
+						}
+			else if  (!(($("input:radio[name='6opA']").is(":checked"))&&
 						($("input:radio[name='6opB']").is(":checked"))&&
 						($("input:radio[name='6opC']").is(":checked"))&&
-						($("input:radio[name='6opD']").is(":checked"))&&
-						
-						($("input:radio[name='7opA']").is(":checked"))&&
+						($("input:radio[name='6opD']").is(":checked")))) {
+
+											$('html, body').animate({
+											        scrollTop: (($("#s6").offset().top)-50)
+											    }, 500);
+											$('#s1').css("color","black");
+											$('#s2').css("color","black");
+											$('#s3').css("color","black");
+											$('#s4').css("color","black");
+											$('#s5').css("color","black");
+											$('#s6').css("color","red");
+											$('#modal-alerta').modal({
+							      					show: true
+							    				});
+						}
+			else if  (!(($("input:radio[name='7opA']").is(":checked"))&&
 						($("input:radio[name='7opB']").is(":checked"))&&
 						($("input:radio[name='7opC']").is(":checked"))&&
-						($("input:radio[name='7opD']").is(":checked"))&&
-						
-						($("input:radio[name='8opA']").is(":checked"))&&
+						($("input:radio[name='7opD']").is(":checked")))) {
+
+											$('html, body').animate({
+											        scrollTop: (($("#s7").offset().top)-50)
+											    }, 500);
+											$('#s1').css("color","black");
+											$('#s2').css("color","black");
+											$('#s3').css("color","black");
+											$('#s4').css("color","black");
+											$('#s5').css("color","black");
+											$('#s6').css("color","black");
+											$('#s7').css("color","red");
+											$('#modal-alerta').modal({
+							      					show: true
+							    				});
+						}
+			else if  (!(($("input:radio[name='8opA']").is(":checked"))&&
 						($("input:radio[name='8opB']").is(":checked"))&&
 						($("input:radio[name='8opC']").is(":checked"))&&
-						($("input:radio[name='8opD']").is(":checked"))&&
-						
-						($("input:radio[name='9opA']").is(":checked"))&&
+						($("input:radio[name='8opD']").is(":checked")))) {
+
+											$('html, body').animate({
+											        scrollTop: (($("#s8").offset().top)-50)
+											    }, 500);
+											$('#s1').css("color","black");
+											$('#s2').css("color","black");
+											$('#s3').css("color","black");
+											$('#s4').css("color","black");
+											$('#s5').css("color","black");
+											$('#s6').css("color","black");
+											$('#s7').css("color","black");
+											$('#s8').css("color","red");
+											$('#modal-alerta').modal({
+							      					show: true
+							    				});
+						}
+			else if  (!(($("input:radio[name='9opA']").is(":checked"))&&
 						($("input:radio[name='9opB']").is(":checked"))&&
 						($("input:radio[name='9opC']").is(":checked"))&&
-						($("input:radio[name='9opD']").is(":checked"))&&
-						
-						($("input:radio[name='10opA']").is(":checked"))&&
+						($("input:radio[name='9opD']").is(":checked")))) {
+
+
+											$('html, body').animate({
+											        scrollTop: (($("#s9").offset().top)-50)
+											    }, 500);
+											$('#s1').css("color","black");
+											$('#s2').css("color","black");
+											$('#s3').css("color","black");
+											$('#s4').css("color","black");
+											$('#s5').css("color","black");
+											$('#s6').css("color","black");
+											$('#s7').css("color","black");
+											$('#s8').css("color","black");
+											$('#s9').css("color","red");
+											$('#modal-alerta').modal({
+							      					show: true
+							    				});
+						}
+			else if  (!(($("input:radio[name='10opA']").is(":checked"))&&
 						($("input:radio[name='10opB']").is(":checked"))&&
 						($("input:radio[name='10opC']").is(":checked"))&&
-						($("input:radio[name='10opD']").is(":checked"))&&
-						
-						($("input:radio[name='11opA']").is(":checked"))&&
+						($("input:radio[name='10opD']").is(":checked")))) {
+
+											$('html, body').animate({
+											        scrollTop: (($("#s10").offset().top)-50)
+											    }, 500);
+											$('#s1').css("color","black");
+											$('#s2').css("color","black");
+											$('#s3').css("color","black");
+											$('#s4').css("color","black");
+											$('#s5').css("color","black");
+											$('#s6').css("color","black");
+											$('#s7').css("color","black");
+											$('#s8').css("color","black");
+											$('#s9').css("color","black");
+											$('#s10').css("color","red");
+											$('#modal-alerta').modal({
+							      					show: true
+							    				});
+						}
+			else if  (!(($("input:radio[name='11opA']").is(":checked"))&&
 						($("input:radio[name='11opB']").is(":checked"))&&
 						($("input:radio[name='11opC']").is(":checked"))&&
-						($("input:radio[name='11opD']").is(":checked"))&&
-						
-						($("input:radio[name='12opA']").is(":checked"))&&
+						($("input:radio[name='11opD']").is(":checked")))) {
+
+											$('html, body').animate({
+											        scrollTop: (($("#s11").offset().top)-50)
+											    }, 500);
+											$('#s1').css("color","black");
+											$('#s2').css("color","black");
+											$('#s3').css("color","black");
+											$('#s4').css("color","black");
+											$('#s5').css("color","black");
+											$('#s6').css("color","black");
+											$('#s7').css("color","black");
+											$('#s8').css("color","black");
+											$('#s9').css("color","black");
+											$('#s10').css("color","black");
+											$('#s11').css("color","red");
+											$('#modal-alerta').modal({
+							      					show: true
+							    				});
+						}
+			else if  (!(($("input:radio[name='12opA']").is(":checked"))&&
 						($("input:radio[name='12opB']").is(":checked"))&&
 						($("input:radio[name='12opC']").is(":checked"))&&
-						($("input:radio[name='12opD']").is(":checked"))))
-						
-						{
-											window.scrollTo(0, 0);
-											alert("Preencha todos os campos!");
+						($("input:radio[name='12opD']").is(":checked")))) {
 
+											$('html, body').animate({
+											        scrollTop: (($("#s12").offset().top)-50)
+											    }, 500);
+											$('#s1').css("color","black");
+											$('#s2').css("color","black");
+											$('#s3').css("color","black");
+											$('#s4').css("color","black");
+											$('#s5').css("color","black");
+											$('#s6').css("color","black");
+											$('#s7').css("color","black");
+											$('#s8').css("color","black");
+											$('#s9').css("color","black");
+											$('#s10').css("color","black");
+											$('#s11').css("color","black");
+											$('#s12').css("color","red");
+											$('#modal-alerta').modal({
+							      					show: true
+							    				});
 						}
 
-				else {
+
+			else {
+
+											$('#s1').css("color","black");
+											$('#s2').css("color","black");
+											$('#s3').css("color","black");
+											$('#s4').css("color","black");
+											$('#s5').css("color","black");
+											$('#s6').css("color","black");
+											$('#s7').css("color","black");
+											$('#s8').css("color","black");
+											$('#s9').css("color","black");
+											$('#s10').css("color","black");
+											$('#s11').css("color","black");
+											$('#s12').css("color","black");
 
 					//Abre a popup
 
@@ -539,7 +717,7 @@ $(document).ready(function() {
 
 //RESULTADOS
 
-				document.getElementById("resultado-final").innerHTML = " Seu estilo de aprendizado é " + estilo;
+				document.getElementById("resultado-final").innerHTML = " Seu estilo de aprendizagem predominante é " + estilo;
 					var forma1 = "concreta";
 					var forma2 = "reflexiva";
 					if (ap1 > 0) {
