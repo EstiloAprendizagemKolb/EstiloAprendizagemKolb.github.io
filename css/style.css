@@ -1,0 +1,284 @@
+
+body{
+  background-color: #eee;
+  font-family: 'Roboto', sans-serif;
+}
+
+.modal-body p {
+text-align: left;
+}
+
+.campos2 p {
+  font-size: 12px;
+
+}
+
+.grupo1, .grupo2, .grupo3, .grupo4 {
+  float: left;
+
+}
+
+
+.header,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.faixa{
+  background-color: #151f39;
+  width: 100%;
+  height: 144px;
+  border-top: 6px solid #e77817;
+}
+
+.logo img{
+  width: 160px;
+  height:90px;
+  margin: 25px;
+}
+
+.header h3{
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 26px;
+  color: #0f203c;
+}
+
+.lead{
+  margin: 0px 15px 30px 15px;
+  line-height: 20px;
+  font-size: 23px;
+  color: #151f39;
+  text-transform: uppercase;
+
+}
+
+#formulario{
+  margin-top: 15px; 
+}
+
+.campos2 {
+ text-align: left;
+}
+
+.input-group[class*=col-] {
+    margin: 15px 27px;
+}
+
+#explicacao {
+  background: #f3f3f4;
+}
+
+.input-group-addon:first-child {
+  -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+      border-radius: 0 !important;
+  border: 0px solid !important;
+  background-color: #151f39;
+  width: 80px;
+  height: 40px;
+  font-size: 17px;
+  color: #fff;
+}
+
+.input-group .form-control:last-child{
+  -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+      border-radius: 0 !important;
+  border: 1px solid !important;
+  border-color:  #151f39 !important;
+  height: 40px;
+  font-size: 17px;
+  color: #838383;
+}
+
+.icon{
+  padding: 7px 9px !important;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #151f39;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#info {
+float: right;
+position: relative;
+bottom: 20px;
+right: 10px;
+color: #151F39;}
+
+#info .glyphicon {
+margin: 0;
+}
+
+.iconmenos{
+  padding: 7px 8px !important;
+}
+
+.frase-motivadora{
+  font-size: 20px !important;
+  color: #838383;
+  margin-bottom: 8px !important;
+}
+
+.linha{
+  border-bottom: 1px solid #f3f3f4;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#titulao {
+  margin-top:10px;
+}
+
+.jumbotron {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #fff;
+  -webkit-border-radius: 5px !important;
+     -moz-border-radius: 5px !important;
+          border-radius: 5px !important;
+  padding: 0px !important;  
+  box-shadow: 2px 3px 2px 1px rgba(0, 0, 0, 0.12);
+}
+
+.jumbotron p {
+  font-size: 14px;
+  text-align: left;
+  margin:20px;
+}
+
+.jumbotron .btn {
+  padding: 14px 24px;
+  margin: 15px 20px; 
+  width: 250px;
+  font-size: 22px !important;
+  color: #fff;
+  -webkit-border-radius: 4px !important;
+     -moz-border-radius: 4px !important;
+          border-radius: 4px !important;
+  background-color: #0f203c; 
+  border: none;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron .btn:hover {
+  background-color: #e77817;
+  transition: background-color .2s ease-in-out;
+}
+
+#refazer {
+  padding: 14px 24px;
+  margin: 15px 20px; 
+  width: 265px;
+  font-size: 22px !important;
+  color: #fff;
+  -webkit-border-radius: 4px !important;
+     -moz-border-radius: 4px !important;
+          border-radius: 4px !important;
+  background-color: #0f203c; 
+  border: none;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#refazer:hover {
+  background-color: #e77817;
+  transition: background-color .2s ease-in-out;
+}
+
+.footer {
+  padding: 4px 0;
+}
+
+.footer p {
+  font-size: 14px !important;
+  color: #746e6e;
+  margin-bottom: 4px;
+}
+
+.footer .glyphicon{
+  margin-bottom: 30px;
+}
+
+#erro li {
+  list-style-type: none;
+  color: #992021;
+}
+
+#modal-preencher {
+  width: 300px;
+}
+
+.modal-content{
+  border-radius: 6px;
+  border-color:none;
+}
+
+.modal-header{
+  background-color: #151f39;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.modal-title {
+    font-size: 18px;
+    color: #fff;
+}
+
+.close{
+  margin: -15px !important;
+  height: 55px !important;
+  width: 10% !important;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  opacity: .7;
+  text-shadow: none;
+}
+
+.close:hover{
+  color: #fff;
+  opacity: .9;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+
+#titulao {
+  margin-top:40px;
+}
+  .header h3 {
+font-size: 34px;
+  }
+
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .input-group[class*=col-] {
+    margin: 5px;
+  }
+}
+
